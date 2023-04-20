@@ -1,3 +1,6 @@
+set(CMAKE_SYSTEM_NAME    "WindowsStore")
+set(CMAKE_SYSTEM_VERSION "10.0")
+
 cmake_minimum_required(VERSION 3.26)
 project(uwp_test CXX)
 
