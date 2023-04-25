@@ -4,7 +4,7 @@ set(CMAKE_SYSTEM_VERSION "10.0")
 cmake_minimum_required(VERSION 3.26)
 project(uwp_test CXX)
 
-set(number_targets "2" CACHE STRING "Number of targets to build")
+set(number_targets "16" CACHE STRING "Number of targets to build")
 set(i 0)
 while(i LESS "${number_targets}")
   set(TARGET "target${i}")
